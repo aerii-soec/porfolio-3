@@ -1,18 +1,27 @@
 * {
-    background-color: #EDE8D0;
     font-family: 'Times New Roman', Times, serif;
 }
 header {
+  background-color: #EDE8D0;
   font-size: 5px;
   text-align: center;
 }
 .navbar-nav {
     margin: auto;
+    background-color: #EDE8D0;
+    
+}
+.nav-link:hover {
+    background-color: #787569;
 }
 .card{
-    background-color: #F5F5F5;
+    background-color: #C9C5B1;
     border: 2px solid #ccc;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin: auto;
-    
+}
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
 }
