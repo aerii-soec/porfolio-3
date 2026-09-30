@@ -34,6 +34,7 @@ header h1 {
 .navbar {
     background-color: #080D1C;
     padding: 20px;
+    margin:auto
 }
 
 .navbar-nav {
@@ -81,9 +82,16 @@ header h1 {
 }
 
 .card-link {
-    color: #3D6FE8;
+    color: #fdfdfd;
 }
-
+button {
+    background-color: #3D6FE8;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 .text-center {
     text-align: center;
 }
